@@ -19,4 +19,4 @@ Al implementar la estrategia de reparación (reintentos automáticos), el sistem
 | Con reintento? | Total Pruebas | Tenian que fallar |Válidos | Fallidos | Precisión | Errores encontrados                                                   |
 | :------------- | :------------ |:----------------- |:------ | :------- | :-------- | :-------------------------------------------------------------------- |
 | No             | 10            |2                  |8       | 2        | 80.0%     | json_parse_error, missing_field                                       |
-| **Sí**         | 10            |2                  |8       | 0        | **100.0%** | Contenido no permitido y la entrada debe contener información valida. |
+| **Sí**         | 10            |2                  |9       | 1        | 90.0%     |  Falla en la pregunta del texto vacio, pensando que texto esta vacio  |
